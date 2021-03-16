@@ -1,0 +1,40 @@
+.navigation {
+  padding: 40px 20px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    height: 50px;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: all 0.5s ease-in;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.04);
+      border-radius: 5px;
+    }
+
+    &--active {
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.04);
+      border-radius: 5px;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+  }
+}

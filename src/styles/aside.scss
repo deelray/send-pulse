@@ -1,0 +1,42 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 240px;
+  background: linear-gradient(180deg, #2dbc80 0.55%, #53cc71 99.33%);
+  box-shadow: inset -1px 0 0 rgba(28, 175, 94, 0.1);
+
+  &__info-block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 39px 0 0 30px;
+  }
+
+  &__picture {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+
+  &__user {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &__followers {
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+}

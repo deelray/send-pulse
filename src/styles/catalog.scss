@@ -1,0 +1,7 @@
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, $card-size);
+  justify-content: center;
+  column-gap: $distance-between-blocks-hor;
+  row-gap: $distance-between-blocks-vert;
+}

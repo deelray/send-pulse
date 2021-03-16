@@ -1,0 +1,24 @@
+@import "./styles/variables.scss";
+@import "./styles/reset.scss";
+@import "./styles/mixins.scss";
+@import "./styles/header.scss";
+@import "./styles/notifications.scss";
+@import "./styles/aside.scss";
+@import "./styles/navigation.scss";
+@import "./styles/main-info.scss";
+@import "./styles/catalog.scss";
+@import "./styles/card.scss";
+@import "./styles/footer.scss";
+@import "./styles/modal.scss";
+
+.main {
+  display: flex;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+

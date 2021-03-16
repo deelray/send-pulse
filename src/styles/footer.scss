@@ -1,0 +1,29 @@
+.footer {
+  padding: 0 35px 30px;
+  margin-bottom: 30px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    width: 170px;
+    height: 67px;
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
+    padding-top: 23px;
+  }
+
+  &__link {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #147a42;
+    padding-top: 14px;
+    transition: 0.5s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

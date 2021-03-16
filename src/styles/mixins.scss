@@ -1,0 +1,19 @@
+@mixin card-text {
+  font-family: Roboto, sans-serif;
+  color: #333;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+@mixin active {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  background: #b8e986;
+  border-radius: 5px;
+  opacity: 0;
+  transition: all 0.9s ease-out;
+}
